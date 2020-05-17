@@ -54,39 +54,40 @@
             <div class="form-group d-flex">
               <div class="form-wrapper">
                 <label for="firstname">First Name</label>
-                <input type="text" name="firstname" id="firstname" class="form-control" placeholder="input your first name" required>
+                <input type="text" name="firstname" id="firstname" class="form-control" placeholder="your first name" required='required'>
               </div>
               <div class="form-wrapper">
                <label for="lastname">Last Name</label>
-               <input type="text" name="lastname" id="lastname" class="form-control" placeholder="input your last name" required>
+               <input type="text" name="lastname" id="lastname" class="form-control" placeholder="your last name"  required='required'>
              </div>
             </div>
             <div class="form-wrapper">
              <label for="email">Email</label>
-             <input type="email" class="form-control" id="email" name="email" placeholder="example@gmail.com">
+             <input type="email" class="form-control" id="email" name="email" placeholder="example@gmail.com"  required='required'>
            </div>
            <div class="form-group d-flex">
              <div class="form-wrapper phone">
                <label for="areacode">Area Code</label>
-               <input type="number" name="areacode" id="areacode" class="form-control" placeholder="+88">
+               <input type="number" name="areacode" id="areacode" class="form-control" placeholder="+88"  required='required'>
              </div>
              <div class="form-wrapper">
                <label for="phonenumber">Phone Number</label>
-              <input type="number" name="phonenumber" class="form-control" id="phonenumber" placeholder="01740020464">
+              <input type="number" name="phonenumber" class="form-control" id="phonenumber" placeholder="01740020464"  required='required'>
             </div>
            </div>
            <div class="form-group d-flex">
             <div class="form-wrapper gender">
               <label for="gender">Gender</label>
-              <select name="gender" id="gender" class="custom-select">
+              <select name="gender" id="gender" class="custom-select"  required='required'>
                  <option value="male">male</option>
                  <option value="female">female</option>
                  <option value="other">other</option>
+                 <option value="select one" selected="selected">select one</option>
               </select>
             </div>
             <div class="form-wrapper mb-3">
               <div class="custom-file">
-                <input type="file" class="custom-file-input" id="customFile">
+                <input type="file" class="custom-file-input" id="customFile"  required='required'>
               <label class="custom-file-label" for="customFile">Choose file</label>
               </div>
            </div>
@@ -94,7 +95,7 @@
           <div class="form-group">
             <div class="form-wrapper datalist-input">
               <label for="occupationn">Occupation</label>
-            <input list="occupation" class="form-control" id="occupationn" placeholder="select your occupation">
+            <input list="occupation" class="form-control" id="occupationn" placeholder="select your occupation"  required='required'>
            <datalist id="occupation">
             <option value="Student">
             <option value="Businessman">
@@ -108,25 +109,25 @@
           <div class="form-group d-flex">
             <div class="form-wrapper">
               <label for="pswrd">Password</label>
-              <input type="password" name="pswd" class="form-control" id="pswrd" placeholder="choose a hard guess password">
+              <input type="password" name="pswd" class="form-control" id="pswrd" placeholder="choose a hard guess password"  required='required'>
             </div>
             <div class="form-wrapper">
               <label for="pswd">Password Again</label>
-              <input type="password" name="pswd" class="form-control" id="pswd" placeholder="type that password again">
+              <input type="password" name="pswd" class="form-control" id="pswd" placeholder="type that password again"  required='required'>
             </div>
           </div>
           <div class="form-group">
             <div class="form-wrapper c-checkbox">
-              <input type="checkbox" name="checkbox" class="custom-checkbox" id="checkbox">
+              <input type="checkbox" name="checkbox" class="custom-checkbox" id="checkbox"  required='required'>
               <label for="checkbox">I agree to the term and conditions</label>
             </div>
           </div>
           <div class="form-group d-flex">
             <div class="form-wrapper submitt">
-              <button type="button" class="btn btn-success px-3">Submit</button>
+              <input type="submit" class="btn btn-success input-btn px-3">
             </div>
             <div class="form-wrapper resett">
-              <button type="reset" class="btn btn-warning px-4">Reset</button>
+              <input type="reset" class="btn btn-warning  input-btn px-4">
             </div>
             <div class="form-wrapper signinn">
                <h6 class="text-center text-muted">already have an account?</h6>
@@ -137,7 +138,9 @@
        </div>
     </div>
     </div>
-  </div>
+  </div> 
+
+  
 
 
   
