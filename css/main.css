@@ -117,6 +117,60 @@ textarea {
    /* --------- body style -------- */
 
 
+  .custom-container {
+    background-image: url('../images/bestheel.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.custom-row {
+    background-color: rgba(10, 10, 10, 0.7);
+}
+
+.form-container {
+    background-color: rgba(241, 6, 6, 0.4);
+    border: 1px solid transparent;
+}
+.form-group .form-wrapper {
+    width: 50%;
+}
+.form-group .phone:first-child {
+   width: 25%;
+   margin-right: 20px;
+}
+.form-group .form-wrapper:first-child {
+    margin-right: 15px;
+}
+.c-form input {
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+.form-group select {
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    width: 50%;
+}
+.form-group .datalist-input {
+    width: 100%;
+}
+
+.form-group a {
+    text-decoration: none;
+    color: #f3efef;
+}
+.form-group .c-checkbox {
+    width: 100%;
+}
+
 
 
 
