@@ -117,6 +117,8 @@ textarea {
    /* --------- body style -------- */
 
 
+
+      /* form 1 style */
   .custom-container {
     background-image: url('../images/bestheel.jpg');
     background-repeat: no-repeat;
@@ -177,6 +179,32 @@ textarea {
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
+
+
+/* form 2 style */
+
+.form-controll input{
+    outline: none;
+    box-shadow:none !important;
+    border:1px solid #ccc !important;
+}
+
+.form-controll.success input {
+    border: 1px solid #2ecc2e !important;
+}
+
+.form-controll.failed input{
+    border: 1px solid #f74904 !important;
+}
+.form-controll small {
+    color: #f74904;
+    visibility: hidden;
+}
+
+.form-controll.failed small {
+    visibility: visible;
+}
+
 
 
 

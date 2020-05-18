@@ -38,6 +38,8 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
+  <!-- Form 1-->
+
   <div class="container-fluid custom-container p-0">
     <div class="row custom-row no-gutters">
       <div class="col-lg-6 d-flex">
@@ -140,7 +142,111 @@
     </div>
   </div> 
 
+  <!-- Form 2 -->
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-4 mx-auto mt-3 pt-1">
+        <div class="content-holder border shadow pb-2">
+          <h5 class="text-center pt-2 px-auto pb-3">Register With Us</h5>
+          <form action="login.html" method="get" class="pt-1 pb-2 px-5" id="myform">
+            
+            <div class="form-controll">
+              <label for="username">Username</label>
+             <input type="text" class="form-control" id="username">
+             <small class="mb-3 d-block">error message</small>
+            </div>
   
+             <div class="form-controll">
+              <label for="email">Email</label>
+              <input type="text" class="form-control" id="email">
+              <small class="mb-3 d-block">error message</small>
+             </div>
+  
+             <div class="form-controll">
+              <label for="password">Password</label>
+              <input type="text" class="form-control" id="password">
+              <small class="mb-3 d-block">error message</small>
+             </div>
+  
+             <div class="form-controll">
+              <label for="password2">Password Again</label>
+              <input type="text" class="form-control" id="password2">
+              <small class="mb-4 d-block">error message</small>
+             </div>
+  
+             <input type="submit" class="btn btn-block" style="background-color: #2B7BB3; color: #fff;">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+  <!-- Form 3-->
+
+  <section class="form mt-5" id="form-1">
+    <h1 class="text-center">Contact Us</h1>
+        <p class="text-center mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, natus quidem. Libero ut ipsum quasi velit dolor, odit dignissimos alias enim, beatae nihil natus quibusdam.</p>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-9">
+           <form action="/mail.php" class="shadow-sm p-md-5 p-1 mb-5 mb-md-3 was-validated">
+              <div class="row mb-2 mb-md-3">
+                <div class="col-md-6">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" class="form-control" required="required">
+                  <div class="valid-feedback">Input is Valid.</div>
+                  <div class="invalid-feedback">Input valid data, please.</div>
+                </div>
+                <div class="col-md-6">
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" class="form-control" required="required">
+                  <div class="valid-feedback">Input is Valid.</div>
+                  <div class="invalid-feedback">Input valid data, please.</div>
+                </div>
+              </div>
+              <div class="row mb-2 mb-md-3">
+                <div class="col-md-6">
+                  <label for="subject">Subject</label>
+                  <input type="text" id="subject" class="form-control" required="required">
+                  <div class="valid-feedback">Input is Valid.</div>
+                  <div class="invalid-feedback">Input valid data, please.</div>
+                </div>
+                <div class="col-md-6">
+                  <label for="number">Your Roll</label>
+                  <input type="number" min="1" max="100" step="1" id="number" class="form-control" required="required" placeholder="min 1 - max 100">
+                  <div class="valid-feedback">Input is Valid.</div>
+                  <div class="invalid-feedback">Input valid data, please.</div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <label for="message">Your Message</label>
+                  <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" required="required"></textarea>
+                  <div class="valid-feedback">Input is Valid.</div>
+                  <div class="invalid-feedback mb-3">Input valid data, please.</div>
+                </div>
+                <input type="submit" class="btn btn-success mx-auto d-block mr-2">
+                <input type="reset" class="btn btn-warning mx-auto d-block">
+              </div>
+           </form>
+        </div>
+        <div class="col-md-3 text-center">
+          <ul class="list-unstyled mt-3 mt-md-5">
+            <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                <p>San Francisco, CA 94126, USA</p>
+            </li>
+            <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                <p>+ 01 234 567 89</p>
+            </li>
+            <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                <p>contact@mdbootstrap.com</p>
+            </li>
+        </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
   
